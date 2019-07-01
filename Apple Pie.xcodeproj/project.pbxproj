@@ -12,6 +12,7 @@
 		220A88E4220EE5B7002164AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A88E2220EE5B7002164AA /* Main.storyboard */; };
 		220A88E6220EE5BC002164AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A88E5220EE5BC002164AA /* Assets.xcassets */; };
 		220A88E9220EE5BC002164AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A88E7220EE5BC002164AA /* LaunchScreen.storyboard */; };
+		220A88F1220F0644002164AA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220A88F0220F0644002164AA /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		220A88E5220EE5BC002164AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220A88E8220EE5BC002164AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220A88EA220EE5BC002164AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220A88F0220F0644002164AA /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				220A88DE220EE5B7002164AA /* AppDelegate.swift */,
 				220A88E0220EE5B7002164AA /* ViewController.swift */,
 				220A88E2220EE5B7002164AA /* Main.storyboard */,
+				220A88F0220F0644002164AA /* Game.swift */,
 				220A88E5220EE5BC002164AA /* Assets.xcassets */,
 				220A88E7220EE5BC002164AA /* LaunchScreen.storyboard */,
 				220A88EA220EE5BC002164AA /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220A88E1220EE5B7002164AA /* ViewController.swift in Sources */,
+				220A88F1220F0644002164AA /* Game.swift in Sources */,
 				220A88DF220EE5B7002164AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "natalia.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "natalia.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
